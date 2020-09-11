@@ -73,3 +73,53 @@ class  SelektionOpgave_4 {
 
     }
 }
+class SelektionOpgave_5{
+    public static void main(String[] args) {
+        int x = 39;
+
+        if (  0 <= x && x <=  9 )
+            System.out.println( x + " tilhører intervallet [0:9]" );
+        else if ( 10 <= x && x <= 19 )
+            System.out.println( x + " tilhører intervallet [10:19]" );
+        else if ( 20 <= x && x <= 29 )
+            System.out.println( x + " tilhører intervallet [20:29]" );
+        else if ( 30 <= x && x <= 39 )
+            System.out.println( x + " tilhører intervallet [30:39]" );
+        else if ( 40 <= x && x <= 49 )
+            System.out.println( x + " tilhører intervallet [40:49]" );
+        else if ( 50 <= x && x <= 59 )
+            System.out.println( x + " tilhører intervallet [50:59]" );
+        else if ( 60 <= x && x <= 69 )
+            System.out.println( x + " tilhører intervallet [60:69]" );
+        else if ( 70 <= x && x <= 79 )
+            System.out.println( x + " tilhører intervallet [70:79]" );
+        else if ( 80 <= x && x <= 89 )
+            System.out.println( x + " tilhører intervallet [80:89]" );
+        else
+            System.out.println( x + " tilhører intervallet [90:99]" );
+    }
+}
+class SelektionOpgave_6 {
+    public static void main(String[] args) {
+
+        int x = 10;
+        int y = 250;
+        int z = 20;
+
+        if (x > z && x < y) {
+            System.out.println("x er den miderste variable");
+        } else if(x < z && x > y)
+            System.out.println("x er den miderste variable");
+        else if (z > x && y > z)
+            System.out.println("z er den miderste variable");
+        else if (z < x && y < z)
+            System.out.println("z er den miderste variable");
+        else if (y > x && y < z)
+            System.out.println("y er den miderste variable");
+        else if (y < x && y > z)
+            System.out.println("y er den miderste variable");
+        else
+            System.out.println("error");
+
+    }
+}
