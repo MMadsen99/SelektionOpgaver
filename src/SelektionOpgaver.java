@@ -120,6 +120,57 @@ class SelektionOpgave_6 {
             System.out.println("y er den miderste variable");
         else
             System.out.println("error");
+        /* man kan forminske antallet af else if sætning ved og lave
+           de boolske sætninger længere som f.eks ( x>=y && y>=z || z>=y && y>=x )
+           se eventuelt vejledende løsninger på docjava.dk
+         */
 
+    }
+}
+class SelektionOpgave_7{
+    public static void main(String[] args) {
+        int x = 9;
+        int y = 21;
+
+        int dif = x - y;
+
+        if (dif > 10)
+
+            System.out.println("forskellen er større end 10");
+        else
+            System.out.println("forskellen er ikke større end 10");
+
+    }
+
+}
+class SelektionOpgave_8{
+    public static void main(String[] args) {
+        int øjne = 9;
+
+        switch ( øjne ) {
+
+            case 1:
+            System.out.println("terningen viser 1");
+            break;
+            case 2:
+                System.out.println("terningen viser 2");
+            break;
+            case 3:
+            System.out.println("terningen viser 3");
+            break;
+            case 4:
+            System.out.println("terningen viser 4");
+            break;
+            case 5:
+            System.out.println("terningen viser 5");
+            break;
+            case 6:
+            System.out.println("terningen viser 6");
+            break;
+
+            default:
+                System.out.println("valgt tal er udenfor intervallet");
+
+        }
     }
 }
